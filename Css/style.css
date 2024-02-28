@@ -68,7 +68,7 @@ background-size:cover;
 background:url(../assets/cafeteria.jpg) no-repeat;
 background-size:cover;
 width:100%;
-height:100%;
+height:100vh;
 background-attachment: fixed;
 padding:15px 0;
 }
@@ -77,6 +77,8 @@ padding:15px 0;
 width:80%;
 height:100%;
 margin:35px auto;
+position:relative;
+text-align:center;
 }
 
 .img-height-small{
@@ -178,12 +180,18 @@ text-shadow:2px 1px 3px #111;
 color:#fff;
 font-size:25px;
 margin:15px 0;
+position:absolute;
+top: 89px;
+left: 0%;
+width: 100%;
 }
  
 .itens-son{
-height: 100%;
+height:70%;
 display:block;
 width:100%;
+position:absolute;
+top: 27%;
 }
 
 .itens-son li{
@@ -249,7 +257,7 @@ background:#000;
 }
 
 .rodape .seta-para-cima{
-position:fixed;
+position:relative;
 right:30px;
 bottom:50px;
 }
@@ -258,7 +266,10 @@ bottom:50px;
 background:#F1A035;
 height:50px;
 border-radius:10px;
-display:inline-block
+display:inline-block;
+position:absolute;
+right:10px;
+bottom:0;
 }
 
 .rodape .seta-para-cima img{
@@ -278,8 +289,13 @@ text-decoration:underline;
 
 @media(max-width:768px){
 
+.heading-white{
+left: 1%;
+top: 11%;
+}
+
 .itens-son{
-height:100%;
+height:76%;
 }    
 
 .Header-container{
@@ -318,6 +334,11 @@ font-size:12px;
 .img-Parallax div h1{
 text-align:center;
 font-size:35px;
+}
+
+.rodape .seta-para-cima a{
+    right: 0px;
+    bottom: -128px;
 }
 
 }

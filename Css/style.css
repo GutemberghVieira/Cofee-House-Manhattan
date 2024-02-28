@@ -57,15 +57,16 @@ width:120px;
 
 .img-Parallax{
 height:100vh;
+background-position:center;
 }
 
 .First-Img{
-background:url(../assets/parallax-imagem1.png) no-repeat;
+background-image:url(../assets/parallax-imagem1.png);
 background-size:cover;
 }
 
 .Last-Img{
-background:url(../assets/cafeteria.jpg) no-repeat;
+background-image:url(../assets/cafeteria.jpg);
 background-size:cover;
 width:100%;
 height:100vh;
@@ -87,15 +88,15 @@ min-height:350px;
 }
 
 .img-solo{
-background:url(../assets/parallax-imagem2.jpg);
+background-image:url(../assets/parallax-imagem2.jpg);
 }
 
 .img-solo2{
-background:url(../assets/parallax-imagem3.jpg);
+background-image:url(../assets/parallax-imagem3.jpg);
 }
 
 .img-solo3{
-background:url(../assets/parallax-imagem4.png);
+background-image:url(../assets/parallax-imagem4.png);
 }
 
 .img-Parallax, .img-height-small{
